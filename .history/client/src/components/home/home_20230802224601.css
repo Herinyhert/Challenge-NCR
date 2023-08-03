@@ -1,0 +1,48 @@
+.containerNav{
+  background-color: rgb(92, 240, 23);
+  height: 100px;
+}
+.imgLogo{
+  margin-top: 8px;
+  margin-left: 20px;
+  height: 80px;
+}
+
+p, h1{
+  text-align: center;
+}
+
+.contenedor-cuentas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .cuenta {
+    flex-basis: calc(33.33% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(92, 240, 23);
+    text-decoration: ;
+  }
+  
+  .botones-paginacion {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .botones-paginacion button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(92, 240, 23);
+    cursor: pointer;
+  }
+  
+  .botones-paginacion button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
